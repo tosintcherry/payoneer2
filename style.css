@@ -1,13 +1,11 @@
 *:focus {outline: none;}
-*{
-    padding: 0;
-    margin: 0;
+* {
+	margin: 0px;
+	padding: 0px;
 }
-
-body{
-   color: #f1f3f7;
+body {
+	color: #f1f3f7;
 }
-
 section.login{
     min-height: 100vh;
     background-color: #f1f3f7;
@@ -21,12 +19,25 @@ section.login{
     min-width: 420px;
 }
 .logo-box {
-    margin: 5rem 0px 0px 0px;
+    margin: 5rem 0px 2rem 0px;
 }
 
 .input-group{
     margin-top: 20px;
     margin-bottom: 4px;
+    padding-bottom: 1rem;
+}
+
+.paragraph {
+	display: initial;
+	color: #555;
+	font-size: 20px;
+}
+.one {
+	padding-bottom: 1rem;
+}
+.two {
+	padding-bottom: 1rem;
 }
 
 .form-input{
@@ -37,13 +48,7 @@ section.login{
     border-bottom: 1px solid #000;
     line-height: 2rem;
 }
-.forget-password {
-    padding: 0px;
-    font-size: 15px;
-    text-decoration: none;
-    color: #399bda;
-    margin: 0px 215px 0px 0px;
-}
+
 .btn-first{
     padding: 0px;
     margin: 18px 0px 18px 0px;
@@ -56,47 +61,22 @@ section.login{
     color: #fbfaf7;
 }
 
-.btn-first:hover {
-    box-shadow: 0px 1px 6px 0px black;
-}
-.sign-up-info {
-    padding: 0px;
+	.btn-first:hover {
+   		box-shadow: 0px 1px 6px 0px black;
+	}
+
+.sign-in-info {
+    padding-top: 10rem;
     font-size: 17px;
     color: #555;
 }
-.sign-up {
+.sign-in {
     text-decoration: none;
     color: #399bda;
 }
-.footer {
-    width: 22rem;
-    margin: 250px 0px 0px 24px;
-}
-.copy {
-    text-decoration: none;
-    color: #555;
-}
-    .copy:hover {
-        text-decoration: underline;
-    }
-.contact {
-    text-decoration: none;
-    color: #555;
-}
-    .contact:hover {
-        text-decoration: underline;
-        color: #000;
-    }
-.list {
-    color: #555;
-}
-    .list:hover {
-        text-decoration: underline;
-    }
-ul {
-    list-style: none;
-    display: inline-flex;
-}
+	.sign-in:hover {
+		color: #000;
+	}
 
 .right-side-bar {
     width: 75%;
