@@ -1,0 +1,112 @@
+*:focus {outline: none;}
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+   color: #f1f3f7;
+}
+
+section.login{
+    min-height: 100vh;
+    background-color: #f1f3f7;
+    z-index: 10;
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+    box-shadow: 3px 0 28px hsla(0,0%,45%,.5);
+    width: 25%;
+    min-width: 420px;
+}
+.logo-box {
+    margin: 5rem 0px 0px 0px;
+}
+
+.input-group{
+    margin-top: 20px;
+    margin-bottom: 4px;
+}
+
+.form-input{
+    border: 0;
+    width: 20rem;
+    font-size: 16px;
+    background-color: transparent;
+    border-bottom: 1px solid #000;
+    line-height: 2rem;
+}
+.forget-password {
+    padding: 0px;
+    font-size: 15px;
+    text-decoration: none;
+    color: #399bda;
+    margin: 0px 215px 0px 0px;
+}
+.btn-first{
+    padding: 0px;
+    margin: 18px 0px 18px 0px;
+    border: 0px;
+    border-radius: 2px;
+    width: 20rem;
+    height: 40px;
+    font-size: 18px;
+    background-color: #f44336;
+    color: #fbfaf7;
+}
+
+.btn-first:hover {
+    box-shadow: 0px 1px 6px 0px black;
+}
+.sign-up-info {
+    padding: 0px;
+    font-size: 17px;
+    color: #555;
+}
+.sign-up {
+    text-decoration: none;
+    color: #399bda;
+}
+.footer {
+    width: 22rem;
+    margin: 250px 0px 0px 24px;
+}
+.copy {
+    text-decoration: none;
+    color: #555;
+}
+    .copy:hover {
+        text-decoration: underline;
+    }
+.contact {
+    text-decoration: none;
+    color: #555;
+}
+    .contact:hover {
+        text-decoration: underline;
+        color: #000;
+    }
+.list {
+    color: #555;
+}
+    .list:hover {
+        text-decoration: underline;
+    }
+ul {
+    list-style: none;
+    display: inline-flex;
+}
+
+.right-side-bar {
+    width: 75%;
+    z-index: 1;
+    min-height: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background: url(payoneer.jpg) no-repeat 0;
+    background-size: cover;
+    background-position: left 50% top 50%;
+}
